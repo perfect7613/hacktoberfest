@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { ThemeProvider } from "@/components/theme-provider"
+import Navbar from '@/components/Navbar'
 
 
 
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className='overflow-x-hidden overflow-y-auto'>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
+          <Navbar />
           {children}
         </ThemeProvider>
       </body>

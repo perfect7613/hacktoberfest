@@ -4,7 +4,7 @@ export const data : CardData[] = [
     {
         id: 1,
         name: 'Image 1',
-        image: 'https://unsplash.com/photos/a-dog-wearing-a-witches-hat-sitting-on-a-couch-majG4o7gnvs'
+        image: 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1788&q=80'
     },
     
     {
